@@ -35,7 +35,7 @@ impl Solution {
         let mut max_arr = vec![i32::MIN, i32::MIN, i32::MIN];
 
         for number in array {
-            max_arr = Solution::update_array(max_arr.as_mut(), number);
+            Solution::update_array(&mut max_arr, number);
         }
 
         max_arr
@@ -50,7 +50,7 @@ impl Solution {
             Solution::assign_values(array, 0, number);
         }
 
-        array.clone()
+        array.to_vec()
     }
 
     fn assign_values(array: &mut Vec<i32>, index: i32, number: i32) {
