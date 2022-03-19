@@ -41,7 +41,7 @@ impl Solution {
         max_arr
     }
 
-    fn update_array(array: &mut Vec<i32>, number: i32) -> Vec<i32> {
+    fn update_array(array: &mut Vec<i32>, number: i32) {
         if array[2] < number {
             Solution::assign_values(array, 2, number);
         } else if array[1] < number {
@@ -49,8 +49,6 @@ impl Solution {
         } else if array[0] < number {
             Solution::assign_values(array, 0, number);
         }
-
-        array.to_vec()
     }
 
     fn assign_values(array: &mut Vec<i32>, index: i32, number: i32) {
