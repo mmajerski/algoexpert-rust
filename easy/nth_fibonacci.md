@@ -18,7 +18,7 @@ n = 2
 1 // 0, 1
 ```
 
-## Solution using hash tables
+## Solution
 
 Time and space complexity:
 
