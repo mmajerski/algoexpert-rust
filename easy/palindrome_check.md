@@ -18,7 +18,7 @@ string = "abcdcba"
 true // it's written the same forward and backward
 ```
 
-## Solution using hash tables
+## Solution
 
 Time and space complexity:
 
