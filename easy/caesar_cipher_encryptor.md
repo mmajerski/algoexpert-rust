@@ -19,7 +19,7 @@ key = 2
 "zab"
 ```
 
-## Solution using hash tables
+## Solution
 
 Time and space complexity:
 
