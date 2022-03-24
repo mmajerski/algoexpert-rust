@@ -23,7 +23,7 @@ targetSum = 0
 
 Time and space complexity:
 
-- time **O(n)**
+- time **O(n<sup>2</sup>)**
 - space **O(n)**
 
 where `n` is the length of the input array.
